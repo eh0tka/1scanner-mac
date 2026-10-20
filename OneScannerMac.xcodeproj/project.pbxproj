@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0D5C10000000000000000020 /* 1Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1Scanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5C10000000000000000023 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		0D5C10000000000000000024 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		0D5C10000000000000000025 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		0D5C10000000000000000027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5C10000000000000000026 /* OneScannerMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneScannerMac.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0D5C10000000000000000041 /* OneScannerMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OneScannerMac;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D5C10000000000000000060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5C10000000000000000070 = {
+			isa = PBXGroup;
+			children = (
+				0D5C10000000000000000071 /* Configuration */,
+				0D5C10000000000000000041 /* OneScannerMac */,
+				0D5C10000000000000000072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D5C10000000000000000071 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0D5C10000000000000000023 /* Base.xcconfig */,
+				0D5C10000000000000000024 /* Debug.xcconfig */,
+				0D5C10000000000000000025 /* Release.xcconfig */,
+				0D5C10000000000000000026 /* OneScannerMac.entitlements */,
+				0D5C10000000000000000027 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		0D5C10000000000000000072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5C10000000000000000020 /* 1Scanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D5C10000000000000000050 /* OneScannerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5C10000000000000000090 /* Build configuration list for PBXNativeTarget "OneScannerMac" */;
+			buildPhases = (
+				0D5C10000000000000000063 /* Sources */,
+				0D5C10000000000000000060 /* Frameworks */,
+				0D5C10000000000000000066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0D5C10000000000000000041 /* OneScannerMac */,
+			);
+			name = OneScannerMac;
+			packageProductDependencies = (
+			);
+			productName = OneScannerMac;
+			productReference = 0D5C10000000000000000020 /* 1Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5C10000000000000000080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					0D5C10000000000000000050 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 0D5C10000000000000000089 /* Build configuration list for PBXProject "OneScannerMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				"zh-Hans",
+				ja,
+				de,
+				es,
+				"pt-BR",
+				fr,
+				ko,
+				"zh-Hant",
+				it,
+				pl,
+				tr,
+				uk,
+				nl,
+				id,
+				vi,
+			);
+			mainGroup = 0D5C10000000000000000070;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0D5C10000000000000000072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D5C10000000000000000050 /* OneScannerMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5C10000000000000000066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5C10000000000000000063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D5C10000000000000000100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D5C10000000000000000101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D5C10000000000000000102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5C10000000000000000024 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0D5C10000000000000000103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5C10000000000000000025 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5C10000000000000000089 /* Build configuration list for PBXProject "OneScannerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5C10000000000000000100 /* Debug */,
+				0D5C10000000000000000101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5C10000000000000000090 /* Build configuration list for PBXNativeTarget "OneScannerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5C10000000000000000102 /* Debug */,
+				0D5C10000000000000000103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D5C10000000000000000080 /* Project object */;
+}

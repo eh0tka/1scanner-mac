@@ -1,0 +1,11 @@
+{
+ "%lld files": "%lld file",
+ "%lld pages": "%lld page",
+ "A new file every %lld pages": "A new file for every page",
+ "Added to all %lld pages": "Added to %lld page",
+ "All %lld pages.": "%lld page.",
+ "Each of the %lld pages becomes its own PDF.": "The %lld page becomes its own PDF.",
+ "Makes %lld files: %@": "Makes %lld file: %@",
+ "Saved %lld files": "Saved %lld file",
+ "The %lld selected pages.": "The %lld selected page."
+}

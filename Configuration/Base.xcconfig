@@ -1,0 +1,36 @@
+// 1Scanner for Mac. Free Developer ID download from onebuckapps.com.
+// No App Sandbox since 1.0.1, so Install and Relaunch can replace the app in place, as in
+// 1Cleaner for Mac. The app still only touches files the person opens, drops or picks in a Save panel.
+PRODUCT_NAME = 1Scanner
+PRODUCT_MODULE_NAME = OneScannerMac
+PRODUCT_BUNDLE_IDENTIFIER = app.antosha.onescanner.mac
+MARKETING_VERSION = 1.1.0
+CURRENT_PROJECT_VERSION = 3
+
+SDKROOT = macosx
+MACOSX_DEPLOYMENT_TARGET = 14.0
+SUPPORTED_PLATFORMS = macosx
+
+SWIFT_VERSION = 6.0
+SWIFT_STRICT_CONCURRENCY = complete
+SWIFT_EMIT_LOC_STRINGS = YES
+
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_FILE = Configuration/Info.plist
+INFOPLIST_KEY_CFBundleDisplayName = 1Scanner
+INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.productivity
+INFOPLIST_KEY_NSHumanReadableCopyright = © 2026 Anton Trantin
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
+
+// Signed to run on this Mac only, so anyone can build from source; tools/release.sh signs releases with the
+// Developer ID and its team.
+CODE_SIGN_STYLE = Manual
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+CODE_SIGN_ENTITLEMENTS = Configuration/OneScannerMac.entitlements
+ENABLE_HARDENED_RUNTIME = YES
+ENABLE_APP_SANDBOX = NO
+ENABLE_USER_SCRIPT_SANDBOXING = YES
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks
+COMBINE_HIDPI_IMAGES = YES
